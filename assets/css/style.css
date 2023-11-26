@@ -1,0 +1,90 @@
+#content{
+    background-color: #20201ec9;
+}
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    height: 100px;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.title{
+    
+    font-size: 30px;
+    color: #fff;
+}
+#main2{
+    display:flex;;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin: 0px;
+    margin-left: 100px;
+    background-color: #6b9299; 
+    margin-bottom: 10px;
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 25%;
+    
+}
+.info1{
+    display: block;
+    margin-bottom: 70px;
+    margin-top: 10px;
+    width: 300px;
+    color: #fff;
+    border: none;
+}
+
+
+
+.info2{
+    display:block ;
+    margin-bottom: 50px;
+    width: 300px;
+    color: #fff;
+    border: none;
+}
+.input1{
+    margin-left: 3px;
+    padding: 7px;
+    
+}
+
+.input2{
+    padding: 20px 50px ;
+    border:none;
+    margin-left: 0px;
+    position: relative;
+    cursor: pointer;
+}
+.input2::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px ;
+    height:55px;
+    background-color: #92c03dc5;
+    transition: 2s ;
+}
+.input2:hover::before{
+    width: 100%;
+}
+input{
+    margin-top: 20px;
+}
+footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}
